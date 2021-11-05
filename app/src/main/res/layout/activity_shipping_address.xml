@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/spacing_xsmall">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/colorPrimary">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/ivCartToolbarBack"
+                android:layout_width="?android:attr/actionBarSize"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:tint="@color/white"
+                app:srcCompat="@drawable/ic_arrow_back" />
+
+            <TextView
+                android:id="@+id/tvCartToolbarTotalPrice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/muli_semibold"
+                android:gravity="center_vertical"
+                android:text="@string/title_shipping_address"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_xlarge" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llsearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_medium"
+            android:background="@drawable/bg_search"
+            android:visibility="gone"
+            app:layout_collapseMode="pin">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@color/black"
+                app:srcCompat="@drawable/ic_search_white_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_medium"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:maxLines="1"
+                android:text="@string/search"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/llAddNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appBar"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/spacing_large">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@color/colorPrimary"
+            app:srcCompat="@drawable/ic_add_black_24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/spacing_large"
+            android:layout_marginStart="@dimen/spacing_large"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/title_button_add_new"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvShippingAddress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/llAddNew"
+        android:layout_marginTop="@dimen/spacing_large" />
+
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_yhuge"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/spacing_small"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/muli_regular"
+        android:gravity="center"
+        android:padding="@dimen/spacing_xsmall"
+        android:text="@string/title_button_proceed"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_small" />
+
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/progress_wheel"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:matProg_barColor="#5588FF"
+        app:matProg_progressIndeterminate="true" />
+
+</RelativeLayout>

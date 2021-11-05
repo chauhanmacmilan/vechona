@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ProfileMenuItemTv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_large</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ProfileMenuItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/spacing_large</item>
+        <item name="android:paddingLeft">@dimen/spacing_xlarge</item>
+        <item name="android:paddingRight">@dimen/spacing_xlarge</item>
+        <item name="android:paddingTop">@dimen/spacing_large</item>
+    </style>
+
+    <style name="MyPaymentItemTv">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MyPaymentItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/spacing_medium</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="CartTextView">
+        <item name="android:textColor">@color/grey_50</item>
+        <item name="android:textSize">@dimen/textsize_regular</item>
+        <item name="android:padding">@dimen/spacing_10dp</item>
+        <item name="android:fontFamily">@font/muli_regular</item>
+    </style>
+
+    <style name="ShippingAddressTextViewOne">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/textsize_regular</item>
+        <item name="android:padding">@dimen/spacing_xxsmall</item>
+        <item name="android:fontFamily">@font/muli_bold</item>
+    </style>
+
+    <style name="ShippingAddressTextViewTwo">
+        <item name="android:textColor">@color/grey_80</item>
+        <item name="android:textSize">@dimen/textsize_small</item>
+        <item name="android:padding">@dimen/spacing_xxxsmall</item>
+        <item name="android:fontFamily">@font/muli_regular</item>
+    </style>
+
+    <style name="AddNewAddressTextView">
+        <item name="android:textColor">@color/grey_50</item>
+        <item name="android:textSize">@dimen/textsize_medium</item>
+        <item name="android:padding">@dimen/spacing_10dp</item>
+    </style>
+
+    <style name="OrderConfirmationTextView">
+        <item name="android:textColor">@color/grey_80</item>
+        <item name="android:textSize">@dimen/textsize_regular</item>
+        <item name="android:padding">@dimen/spacing_xsmall</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="searchIcon">@drawable/ic_search_white_24dp</item>
+        <!-- Gets rid of the "underline" in the text -->
+        <item name="queryBackground">@null</item>
+        <!-- Gets rid of the search icon when the SearchView is expanded -->
+        <item name="searchHintIcon">@null</item>
+        <!-- The hint text that appears when the user has not typed anything -->
+        <item name="queryHint">@string/search</item>
+    </style>
+
+    <style name="OrderTextView">
+        <item name="android:textColor">@color/grey_50</item>
+        <item name="android:textSize">@dimen/textsize_regular</item>
+        <item name="android:padding">@dimen/spacing_xxsmall</item>
+        <item name="android:fontFamily">@font/muli_regular</item>
+    </style>
+
+    <style name="OrderDetailTextViewOne">
+        <item name="android:textColor">@color/grey_90</item>
+        <item name="android:textSize">@dimen/textsize_medium</item>
+        <item name="android:fontFamily">@font/muli_bold</item>
+        <item name="android:padding">@dimen/spacing_xsmall</item>
+    </style>
+
+    <style name="OrderDetailTextViewBold">
+        <item name="android:textColor">@color/grey_70</item>
+        <item name="android:textSize">@dimen/textsize_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/spacing_small</item>
+    </style>
+
+    <style name="OrderDetialTextView">
+        <item name="android:textColor">@color/grey_50</item>
+        <item name="android:textSize">@dimen/textsize_regular</item>
+        <item name="android:fontFamily">@font/muli_regular</item>
+        <item name="android:padding">@dimen/spacing_small</item>
+    </style>
+
+    <style name="CourierTextView">
+        <item name="android:textColor">@color/grey_80</item>
+        <item name="android:textSize">@dimen/textsize_regular</item>
+        <item name="android:padding">@dimen/spacing_xsmall</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="RadioButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+</resources>

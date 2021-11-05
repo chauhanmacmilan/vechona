@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/material_grey_50"
+                android:orientation="horizontal"
+                android:padding="@dimen/spacing_large">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/ivProfileImage"
+                    android:layout_width="@dimen/spacing_xgigantic"
+                    android:layout_height="@dimen/spacing_xgigantic"
+                    app:srcCompat="@drawable/ic_account" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tvProfile"
+                    android:layout_width="@dimen/spacing_xgigantic"
+                    android:layout_height="@dimen/spacing_xgigantic"
+                    android:background="@drawable/ic_order"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_huge"
+                    android:visibility="gone"
+                    tool:text="M" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/spacing_medium"
+                    android:layout_marginStart="@dimen/spacing_medium"
+                    android:orientation="vertical">
+                    <!--
+
+                                        <TextView
+                                            android:id="@+id/tvProfileName"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Manish"
+                                            android:textColor="@color/black"
+                                            android:textSize="@dimen/textsize_large" />
+                    -->
+
+                    <TextView
+                        android:id="@+id/tvPhoneNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_xxsmall"
+                        android:textColor="@color/black"
+                        tool:text="+913873273877" />
+
+                    <TextView
+                        android:id="@+id/tvEditProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_xxsmall"
+                        android:text="@string/edit_profile"
+                        android:textColor="@color/colorPrimary" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llEmailus"
+                style="@style/ProfileMenuItem">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="@dimen/spacing_xxlarge"
+                    android:layout_height="@dimen/spacing_xxlarge"
+                    app:srcCompat="@drawable/ic_email_black_24dp" />
+
+                <TextView
+                    style="@style/ProfileMenuItemTv"
+                    android:text="@string/emailus" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_30" />
+
+            <LinearLayout
+                android:id="@+id/llbankdetail"
+                style="@style/ProfileMenuItem">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="@dimen/spacing_xxlarge"
+                    android:layout_height="@dimen/spacing_xxlarge"
+                    app:srcCompat="@drawable/ic_bank_details" />
+
+                <TextView
+                    android:id="@+id/myBankDetailTv"
+                    style="@style/ProfileMenuItemTv"
+                    android:text="@string/bank_details" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_30" />
+
+
+            <LinearLayout
+                android:id="@+id/llPayment"
+                style="@style/ProfileMenuItem">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="@dimen/spacing_xxlarge"
+                    android:layout_height="@dimen/spacing_xxlarge"
+                    app:srcCompat="@drawable/ic_payment_black_24dp" />
+
+                <TextView
+                    style="@style/ProfileMenuItemTv"
+                    android:text="@string/my_payment" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_30" />
+
+            <LinearLayout
+                android:id="@+id/llSharedCatalogs"
+                style="@style/ProfileMenuItem">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="@dimen/spacing_xxlarge"
+                    android:layout_height="@dimen/spacing_xxlarge"
+                    app:srcCompat="@drawable/ic_share_black_24dp" />
+
+                <TextView
+                    style="@style/ProfileMenuItemTv"
+                    android:text="@string/shared_catalogs" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_30" />
+
+            <LinearLayout
+                android:id="@+id/llNotifications"
+                style="@style/ProfileMenuItem"
+                android:visibility="gone">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="@dimen/spacing_xxlarge"
+                    android:layout_height="@dimen/spacing_xxlarge"
+                    android:tint="@color/black"
+                    app:srcCompat="@drawable/ic_notification" />
+
+                <TextView
+                    style="@style/ProfileMenuItemTv"
+                    android:text="@string/notifications" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_30"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/llRate"
+                style="@style/ProfileMenuItem">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="@dimen/spacing_xxlarge"
+                    android:layout_height="@dimen/spacing_xxlarge"
+                    app:srcCompat="@drawable/ic_star_black_24dp" />
+
+                <TextView
+                    style="@style/ProfileMenuItemTv"
+                    android:text="@string/rate_app" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_30" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

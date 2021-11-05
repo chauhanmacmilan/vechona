@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="@dimen/spacing_medium"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:contentInsetStartWithNavigation="0dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <TextView
+            android:id="@+id/titleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_black"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_large"
+            tool:text="@string/app_name" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/ivMenu"
+            android:layout_width="?android:attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:padding="@dimen/spacing_large"
+            android:tint="@color/white"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_more" />
+
+        <RelativeLayout
+            android:id="@+id/rlCart"
+            android:layout_width="?android:attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:visibility="gone">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/ivCart"
+                android:layout_width="?android:attr/actionBarSize"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:tint="@color/white"
+                app:srcCompat="@drawable/ic_shopping_cart" />
+
+            <TextView
+                android:id="@+id/tvCartBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="@dimen/spacing_small"
+                android:layout_marginRight="@dimen/spacing_small"
+                android:layout_marginTop="@dimen/spacing_small"
+                android:background="@drawable/rounded_cart_badge"
+                android:gravity="center"
+                android:text="41"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_xsmall" />
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/ivMenuSearch"
+            android:layout_width="?android:attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:padding="@dimen/spacing_large"
+            android:visibility="gone"
+            app:actionViewClass="Android.Support.V7.Widget.SearchView"
+            app:srcCompat="@drawable/ic_search_white_24dp" />
+
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>

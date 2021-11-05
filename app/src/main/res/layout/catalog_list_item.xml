@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_small"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/spacing_medium">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="215dp"
+                    android:layout_weight="0.4"
+                    app:cardCornerRadius="@dimen/spacing_small">
+
+                    <ImageView
+                        android:id="@+id/ivCataloglist"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/image1" />
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/spacing_medium"
+                    android:paddingStart="@dimen/spacing_medium">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        app:cardCornerRadius="@dimen/spacing_small">
+
+                        <ImageView
+                            android:id="@+id/ivCataloglist2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/image2" />
+                    </android.support.v7.widget.CardView>
+
+                    <!-- <RelativeLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="0dp"
+                         android:layout_weight="0.5"
+                         android:paddingTop="@dimen/spacing_medium">-->
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:layout_weight="0.5"
+                        app:cardCornerRadius="@dimen/spacing_small">
+
+                        <ImageView
+                            android:id="@+id/ivCataloglist3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:adjustViewBounds="true"
+                            android:foreground="#AA323232"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/image3" />
+
+                        <TextView
+                            android:id="@+id/imageCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/muli_light"
+                            android:textColor="@color/white"
+                            tool:text="+8" />
+                    </android.support.v7.widget.CardView>
+
+                    <!--</RelativeLayout>-->
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/spacing_medium"
+                android:paddingLeft="@dimen/spacing_medium"
+                android:paddingRight="@dimen/spacing_medium">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvCataloglistName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8.5"
+                        android:fontFamily="@font/muli_regular"
+                        android:maxLines="2"
+                        android:textColor="@color/grey_70"
+                        android:textSize="@dimen/textsize_medium"
+                        tool:text="abc" />
+
+                    <LinearLayout
+                        android:id="@+id/llCatalogRating"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tvCatalogRating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize_medium"
+                            tool:text="4.3" />
+
+                        <ImageView
+                            android:layout_width="@dimen/spacing_large"
+                            android:layout_height="@dimen/spacing_large"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginStart="@dimen/spacing_xsmall"
+                            android:tint="@color/white"
+                            app:srcCompat="@drawable/ic_star_black_24dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_small"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/muli_semibold"
+                        android:text="@string/title_starting_from"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textsize_medium" />
+
+                    <TextView
+                        android:id="@+id/tvCataloglistPrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_xsmall"
+                        android:layout_marginStart="@dimen/spacing_xsmall"
+                        android:fontFamily="@font/muli_extrabold"
+                        android:text="@string/priceFormat"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textsize_medium" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_medium">
+
+                    <!-- <android.support.v7.widget.AppCompatImageView
+                         android:id="@+id/btn_download"
+                         android:layout_width="30dp"
+                         android:layout_height="30dp"
+                         app:srcCompat="@drawable/ic_download"/>
+
+                     <android.support.v7.widget.AppCompatImageView
+                         android:id="@+id/btn_fb"
+                         android:layout_width="30dp"
+                         android:layout_height="30dp"
+                         android:layout_marginLeft="@dimen/spacing_medium"
+                         app:srcCompat="@drawable/ic_facebook"/>-->
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/faverite"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
+
+                    <LinearLayout
+                        android:id="@+id/btn_whatsapp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginStart="@dimen/spacing_large"
+                        android:background="@drawable/rounded_corner"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/spacing_small"
+                        tool:ignore="UselessParent">
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/ic_whatsapp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/spacing_small"
+                            android:layout_marginStart="@dimen/spacing_small"
+                            android:fontFamily="@font/muli_regular"
+                            android:gravity="center"
+                            android:text="@string/share_now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlPrebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/spacing_medium"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:padding="@dimen/spacing_small"
+                android:text="@string/title_prebooking"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

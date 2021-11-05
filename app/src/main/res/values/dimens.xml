@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_xxxsmall">1dp</dimen>
+    <dimen name="spacing_xxsmall">2dp</dimen>
+    <dimen name="spacing_xsmall">4dp</dimen>
+    <dimen name="spacing_5dp">5dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_10dp">10dp</dimen>
+    <dimen name="spacing_medium">12dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_xlarge">20dp</dimen>
+    <dimen name="spacing_xxlarge">24dp</dimen>
+    <dimen name="spacing_xxxlarge">28dp</dimen>
+    <dimen name="spacing_huge">32dp</dimen>
+    <dimen name="spacing_yhuge">36dp</dimen>
+    <dimen name="spacing_xhuge">40dp</dimen>
+    <dimen name="spacing_xxhuge">44dp</dimen>
+    <dimen name="spacing_xxxhuge">48dp</dimen>
+    <dimen name="spacing_gigantic">52dp</dimen>
+    <dimen name="spacing_xgigantic">56dp</dimen>
+    <dimen name="spacing_xxgigantic">60dp</dimen>
+    <dimen name="spacing_xxxgigantic">64dp</dimen>
+    <dimen name="spacing_xxxxgigantic">96dp</dimen>
+    <dimen name="spacing_xxxxxgigantic">112dp</dimen>
+    <dimen name="spacing_ygigantic">128dp</dimen>
+    <dimen name="spacing_yxgigantic">156dp</dimen>
+    <dimen name="spacing_yygigantic">200dp</dimen>
+
+    <dimen name="textsize_xxsmall">8sp</dimen>
+    <dimen name="textsize_xsmall">10sp</dimen>
+    <dimen name="textsize_small">12sp</dimen>
+    <dimen name="textsize_regular">14sp</dimen>
+    <dimen name="textsize_medium">16sp</dimen>
+    <dimen name="textsize_large">18sp</dimen>
+    <dimen name="textsize_xlarge">20sp</dimen>
+    <dimen name="textsize_xxlarge">24sp</dimen>
+    <dimen name="textsize_xxxlarge">28sp</dimen>
+    <dimen name="textsize_huge">32sp</dimen>
+    <dimen name="textsize_xhuge">36sp</dimen>
+    <dimen name="textsize_xxhuge">40sp</dimen>
+    <dimen name="textsize_xxxhuge">44sp</dimen>
+</resources>

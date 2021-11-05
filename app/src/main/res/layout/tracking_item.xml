@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/spacing_large"
+    android:layout_marginStart="@dimen/spacing_large"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/roundImage"
+            android:layout_width="@dimen/spacing_large"
+            android:layout_height="wrap_content"
+            android:tint="@color/red"
+            app:srcCompat="@drawable/ic_fiber_manual_record_red_24dp" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/dashImage"
+            android:layout_width="@dimen/spacing_xsmall"
+            android:layout_height="match_parent"
+            android:src="@color/red"
+            android:tint="@color/red" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_5dp"
+        android:layout_marginRight="@dimen/spacing_5dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/spacing_xlarge"
+        android:paddingTop="@dimen/spacing_5dp">
+
+        <TextView
+            android:id="@+id/tvTrackingDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/spacing_10dp"
+            android:layout_marginStart="@dimen/spacing_10dp"
+            android:padding="@dimen/spacing_xxsmall"
+            android:text="@string/date"
+            android:textColor="@color/red"
+            android:textSize="@dimen/textsize_regular"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTrackingDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/spacing_10dp"
+            android:layout_marginStart="@dimen/spacing_10dp"
+            android:clickable="false"
+            android:padding="@dimen/spacing_xxsmall"
+            android:text="@string/cancelled"
+            android:textColor="@color/red"
+            android:textSize="@dimen/textsize_regular"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

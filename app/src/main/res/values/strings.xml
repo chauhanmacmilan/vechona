@@ -1,0 +1,232 @@
+<resources>
+    <string name="app_name">Vechona</string>
+    <string name="start">Start</string>
+    <string name="log_out">Log out</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_collections">Collections</string>
+    <string name="menu_order">Order</string>
+    <string name="menu_account">Account</string>
+    <string name="bank_details">My Bank Details</string>
+    <string name="my_payment">My Payments</string>
+    <string name="submit">Submit</string>
+    <string name="update">Update</string>
+    <string name="bank_details_alert">Please enter your correct bank details carefully.</string>
+    <string name="emailus">Email us</string>
+    <string name="shared_catalogs">My Shared Catalogs</string>
+    <string name="notifications">Notifications</string>
+    <string name="rate_app">Rate App</string>
+    <string name="search">Try Saree, Kurti or Search by Product Code</string>
+    <string name="share_now">Share Now</string>
+    <string name="top_categories">Top Categories</string>
+    <string name="sort">SORT</string>
+    <string name="filter">FILTERS</string>
+    <string name="select_filter">Select Filter</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="share_on_whatsapp">SHARE ON WHATSAPP</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="dispatch_text">Dispatched in 2-3 days</string>
+    <string name="product_details">PRODUCT DETAILS</string>
+    <string name="copy">Copy</string>
+    <string name="check_availability">Check Availability</string>
+    <string name="delivery">Delivery time additional post dispatch</string>
+    <string name="cash_on_delivery">Free cash on delivery</string>
+    <string name="sold_by">SOLD BY</string>
+    <string name="price_inclusive_gst">Price inclusive of GST</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="full_name">Full Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="pincode">Pin Code</string>
+    <string name="address1">Address 1</string>
+    <string name="address2">Address 2</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="sort_catalogs_by">SORT CATALOGS BY</string>
+    <string name="new_arrivals">New Arrivals</string>
+    <string name="price_low_to_high">Price(Low to High)</string>
+    <string name="price_high_to_low">Price(High to Low)</string>
+    <string name="rating">Ratting(High to Low)</string>
+    <string name="save">Save</string>
+    <string name="faverite">Faverite</string>
+    <string name="cart">Cart</string>
+    <string name="tracking">Tracking</string>
+
+    <string name="msg_profile_update_successfully">Profile updated successfully.</string>
+    <string name="msg_cart_added_successfully">Item added to cart successfully.</string>
+    <string name="msg_cart_updated_successfully">Item updated to cart successfully.</string>
+    <string name="msg_bank_details_saved_successfully">Bank details saved successfully</string>
+    <string name="msg_qnty_must_be_one">Quantity must be one.</string>
+    <string name="msg_qnty_out_of_stock">Out of stock.</string>
+    <string name="msg_order_placed_successfully">Order placed successful</string>
+    <string name="msg_order_canceled_successfully">Order canceled successful</string>
+    <string name="msg_orderid_copied">OrderID copied.</string>
+    <string name="msg_review_added">Review added</string>
+
+    <string name="error_required">Required!</string>
+    <string name="error_all_field_required">All fields are required!</string>
+    <string name="error_invalid_email">Invalid email address!</string>
+    <string name="error_pincode_length">Pincode must be 6 digits!</string>
+    <string name="error_account_no_length">Account number must be 11 to 16 digits!</string>
+    <string name="error_account_no_space">Account number doesn\'t contain spaces!</string>
+    <string name="error_confirm_account_no_match">Account number doesn\'t match!</string>
+    <string name="error_invalid_ifsc_code">Please enter valid IFSC code!</string>
+    <string name="error_bank_details_save_failed">Failed to save bank details, try again!</string>
+    <string name="error_profile_update_failed">Failed to update profile, try again!</string>
+    <string name="error_phone_number_length">Phone number must be 10 digits!</string>
+    <string name="error_your_margin">Please enter an amount greater than or equal to the Total Price (₹ %1$d).</string>
+
+    <string name="title_payment_method">Payment Method</string>
+    <string name="title_radio_online">Online</string>
+    <string name="title_radio_cod">Cod</string>
+    <string name="title_cart_supplier">Supplier</string>
+    <string name="title_cart_product_charges">Product Charges</string>
+    <string name="title_cart_cod_charges">COD Charges</string>
+    <string name="title_cart_price">Price</string>
+    <string name="title_cart_shipping_charges">Shipping Charges</string>
+    <string name="title_cart_total_price">Total Price</string>
+    <string name="title_button_proceed">Proceed</string>
+    <string name="title_cart_size">Size</string>
+    <string name="title_cart_color">Color</string>
+    <string name="title_cart_quantity">Quantity</string>
+    <string name="title_cart_choose_size">Choose Size</string>
+    <string name="title_cart_choose_color">Choose Color</string>
+    <string name="title_remove_cart_item">Remove product from cart?</string>
+    <string name="title_cart_dialog_done">Done</string>
+    <string name="title_cart_dialog_remove">Remove</string>
+    <string name="title_cart_dialog_cancel">Cancel</string>
+    <string name="title_empty_cart">Your Cart is empty</string>
+    <string name="title_button_browse_catalogs">Browse catalogs</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_button_checkout">Checkout</string>
+    <string name="title_button_add_another">Add another</string>
+    <string name="title_shipping_address">Shipping address</string>
+    <string name="title_button_add_new">Add New Detail</string>
+    <string name="title_sender_details">Sender details</string>
+    <string name="title_edit">Edit</string>
+    <string name="title_new_address">New Address</string>
+    <string name="title_cart_remove_product_name">%1$s (Size:%2$s)</string>
+    <string name="title_discard_cart_one">Your cart contains products from "%1$s".</string>
+    <string name="title_discard_cart_two">Do you want to discard them and add products from "%1$s"?</string>
+    <string name="title_my_catalogs">My Catalogs</string>
+    <string name="title_shared_catalog_empty">It\'s quite empty here!</string>
+    <string name="title_add_sender">Add Sender</string>
+    <string name="title_sender_details_info">We will send the shipment to the customer on behalf of the chosen sender.</string>
+    <string name="title_button_pay_now">Pay now</string>
+    <string name="title_enter_final_customer_amount">Enter Final Customer Amount</string>
+    <string name="title_include_margin">(including Margin)</string>
+    <string name="title_your_margin">Your Margin</string>
+    <string name="title_order_confirmation_info">This is required for creating customer invoice and taxation purposes, as mandated by Govt of India.</string>
+    <string name="title_placing_order">Placing Order</string>
+    <string name="title_view_details">View details</string>
+    <string name="title_total">Total</string>
+    <string name="title_cod_amount_to_collect">COD Amount to Collect</string>
+    <string name="title_products">Products</string>
+    <string name="title_track">Track</string>
+    <string name="title_placed_on">Placed on</string>
+    <string name="title_customer_details">Customer Details</string>
+    <string name="title_order_details">Order Details</string>
+    <string name="title_select_reason">Select Reason</string>
+    <string name="title_product_details">Product Details</string>
+    <string name="title_tell_us_more">Tell us more (optional)</string>
+    <string name="title_cancel_product">Cancel Product</string>
+    <string name="title_dont_have_any_payment_messages">You don\'t have any payment messages.</string>
+    <string name="title_onhold">Onhold Amount</string>
+    <string name="title_cleared">Cleared Amount</string>
+    <string name="title_uncleared">Uncleared Amount</string>
+    <string name="title_prebooking">Pre-booking</string>
+    <string name="title_shipping_available">Shipping available at </string>
+    <string name="title_order_no">Order No.: %1$s</string>
+    <string name="title_order_id">Order ID - %1$s</string>
+    <string name="title_no_of_item">No of Item : %1$s</string>
+    <string name="title_set_margin">Set Your Margin</string>
+    <string name="title_price_details">Price Details</string>
+    <string name="title_cart_qty">Qty:</string>
+    <string name="title_rating_review"><![CDATA[Ratings & Reviews]]></string>
+    <string name="title_starting_from">Starting from </string>
+
+    <string name="hint_customer_name">Customer name</string>
+    <string name="hint_phone_number">Phone number</string>
+    <string name="hint_flat_no">Flat/House No/Building</string>
+    <string name="hint_street">Street/Colony</string>
+    <string name="hint_city">City</string>
+    <string name="hint_landmark">Landmart</string>
+    <string name="hint_state">State</string>
+    <string name="hint_pin_code">Pin code</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_margin">Margin</string>
+
+    <string name="enter_pincode">Enter pincode</string>
+    <string name="wishlist">WISHLIST</string>
+    <string name="shared">SHARED</string>
+    <string name="country">Country</string>
+
+    <string name="courier">Courier</string>
+    <string name="delhivery">Delhivery</string>
+    <string name="trackingNumber">Tracking Number</string>
+    <string name="number">1490747082441</string>
+    <string name="checkCurrentStatus">CHECK CURRENT STATUS</string>
+    <string name="copyStatus">COPY</string>
+    <string name="timeLine">Timeline</string>
+    <string name="cancelled">Order cancelled</string>
+    <string name="date">21 Dec,09:10 PM</string>
+
+    //parameters
+    <string name="priceFormat">Rs. %1$d</string>
+    <string name="plusPriceFormat">+ ₹ %1$d</string>
+    <string name="priceFormatString">₹ %1$s</string>
+    <string name="plusPriceFormatString">+ ₹ %1$s</string>
+    <string name="toolbarPriceFormat">Total: ₹ %1$d</string>
+    <string name="quantityFormat">Quantity: %1$s</string>
+    <string name="sizeFormat">Size: %1$s</string>
+    <string name="colorFormat">Color: %1$s</string>
+    <string name="image_count">+%1$d</string>
+    <string name="product_easy_return">%1$s Days Easy Returns</string>
+
+    <string name="error_connection_failed">Connection failed</string>
+    <string name="wishlisted">Wishlisted</string>
+    <string name="catalog_description">Catalog\'s description copied.</string>
+    <string name="product_description">Product\'s description copied.</string>
+    <string name="title_check_pincode_availability">Please enter customer\'s delivery pincode to check product availability</string>
+    <string name="check">check</string>
+    <string name="delivery_availability">Delivery available for this product at %1$s</string>
+    <string name="delivery_not_availability">Delivery not available at pincode - %1$s</string>
+    <string name="address_unserviceable">This Address is unserviceable</string>
+    <string name="address_updated">Address updated successfully</string>
+    <string name="dialog_title">Alert</string>
+    <string name="denied_permission">Please allow the permission, without permission you can\\\'t export and share files.</string>
+    <string name="disable_permission">You have previously declined this permission.\\nYou must approve this permission in \\\"Permissions\\\" in the app settings on your device.</string>
+    <string name="ok">Ok</string>
+    <string name="product_lowest_price">Lowest Price Guaranteed</string>
+    <string name="delivered">Delivered</string>
+    <string name="title_btn_send_feedback">Send Feedback</string>
+    <string name="cancel">Cancel</string>
+    <string name="whatsapp_not_installed">Whatsapp isn\'t install in this device</string>
+    <string name="featured_catalog">Featured Catalog</string>
+    <string name="alert_select_item">Please select the item</string>
+    <string name="alert_add_shipping_address">Please add new address deatails</string>
+    <string name="alert_add_sender_details">Please first add sender details</string>
+    <string name="title_discount"><![CDATA[(%1$d%%)]]></string>
+    <string name="title_category">Category</string>
+    <string name="title_price">Price</string>
+    <string name="title_rating">Rating</string>
+    <string name="discount">Discount</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_apply_changes">Apply changes</string>
+    <string name="title_catalog_empty">No catalog available.</string>
+
+    <plurals name="toolbarItemFormat">
+        <item quantity="one">%1$d Item</item>
+        <item quantity="other">%1$d Items</item>
+    </plurals>
+
+    <string-array name="orderCancelReasons">
+        <item>Select a reason for cancellation</item>
+        <item>It was Test Order</item>
+        <item>Placed duplicate order by mistake</item>
+        <item>Expected delivery time is too long</item>
+        <item>Need to change Shipping address</item>
+        <item>Customer changed their mind</item>
+        <item>Need to change Customer Contact No.</item>
+        <item>Need to change Payment Mode</item>
+    </string-array>
+</resources>

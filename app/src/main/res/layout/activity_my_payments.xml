@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fui_transparent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_30" />
+
+    <LinearLayout style="@style/MyPaymentItem">
+
+        <TextView
+            style="@style/MyPaymentItemTv"
+            android:layout_weight="7"
+            android:text="@string/title_onhold" />
+
+        <TextView
+            android:id="@+id/tvOnHold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/colorPrimaryDark"
+            android:padding="@dimen/spacing_small"
+            android:textColor="@color/white"
+            tool:text="@string/my_payment" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_30" />
+
+    <LinearLayout style="@style/MyPaymentItem">
+
+        <TextView
+            style="@style/MyPaymentItemTv"
+            android:layout_weight="7"
+            android:text="@string/title_cleared" />
+
+        <TextView
+            android:id="@+id/tvCleared"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/colorPrimaryDark"
+            android:padding="@dimen/spacing_small"
+            android:textColor="@color/white"
+            tool:text="@string/my_payment" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_30" />
+
+    <LinearLayout style="@style/MyPaymentItem">
+
+        <TextView
+            style="@style/MyPaymentItemTv"
+            android:layout_weight="7"
+            android:text="@string/title_uncleared" />
+
+        <TextView
+            android:id="@+id/tvUncleared"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/colorPrimaryDark"
+            android:padding="@dimen/spacing_small"
+            android:textColor="@color/white"
+            tool:text="@string/my_payment" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_30" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/title_dont_have_any_payment_messages"
+        android:textSize="@dimen/textsize_large"
+        android:visibility="gone" />
+
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/progress_wheel"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        app:matProg_barColor="#5588FF"
+        app:matProg_progressIndeterminate="true" />
+
+</LinearLayout>

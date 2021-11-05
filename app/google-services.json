@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "650781383823",
+    "project_id": "vechona-a3d04",
+    "storage_bucket": "vechona-a3d04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650781383823:android:eabdaa02168019066ce4fa",
+        "android_client_info": {
+          "package_name": "com.vechona.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650781383823-76mm0db802nll1j6jib38f1ph5gnfa2a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vechona.app",
+            "certificate_hash": "24c0670d8873ed8d3139e44e5773d930625c9f52"
+          }
+        },
+        {
+          "client_id": "650781383823-qp306qno6g7l0m673vb6n2kinkghv00n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDhmsPp_RejZyugBbAyU6YBWtcVoT0Bgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650781383823-qp306qno6g7l0m673vb6n2kinkghv00n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

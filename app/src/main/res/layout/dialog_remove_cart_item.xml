@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/spacing_xxlarge"
+    android:paddingLeft="@dimen/spacing_large"
+    android:paddingRight="@dimen/spacing_large"
+    android:paddingTop="@dimen/spacing_xxlarge">
+
+    <TextView
+        android:id="@+id/tvProductNameSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_cart_choose_size"
+        android:textColor="@color/grey_60"
+        android:textSize="@dimen/textsize_large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:text="@string/title_remove_cart_item"
+        android:textColor="@color/grey_60"
+        android:textSize="@dimen/textsize_regular" />
+
+</LinearLayout>
